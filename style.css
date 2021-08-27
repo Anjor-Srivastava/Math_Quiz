@@ -1,0 +1,40 @@
+body {
+    background-color: mediumspringgreen !important;
+}
+
+.login_form {
+    padding: 20px !important;
+    background-color: white !important;
+    border-radius: 20px !important;
+}
+
+h3, label {
+    font-weight: bold !important;
+}
+
+#login_button {
+    background-color: blueviolet;
+    border-radius: 50px;
+    color: white;
+    border: 5px solid blueviolet;
+    cursor: pointer;
+    padding: 10px;
+}
+
+#login_button:hover {
+    background-color: white;
+    color: blueviolet;
+}
+
+#output {
+    background-color: white;
+    border-radius: 10px;
+    border-top: 10px solid #AA4465;
+    padding: 10px;
+    float: none;
+    text-align: left;
+}
+
+button {
+    width: 200px;
+}
