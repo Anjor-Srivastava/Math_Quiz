@@ -11,12 +11,14 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <script src="game.js"></script>
     </head>
-    <body>
-        <h4 id="player1_name"></h4> <span id="player1_score"></span> <br>
-        <h4 id="player2_name"></h4> <span id="player2_score"></span>
+    <body onload="load_content()">
+        <h4 id="player1_name"></h4> <br>
+        <h4 id="player2_name"></h4>
         <div class="container">
             <center>
                 <h1 class="text-capitalize">the math quiz game!</h1>
+                <h3 id="question_turn">Question turn - </h3>
+                <h3 id="answer_turn">Answer turn - </h3>
                 <div id="output"></div>
                 <br><br><br>
                 <label>Number 1</label> <br>
@@ -25,7 +27,7 @@
                 <label>Number 2</label> <br>
                 <input class="form-control" id="second_number" placeholder="Number 2">
                 <br>
-                <button class="btn btn-success" onclick="//send_question()">Send</button>
+                <button id="send_button" onclick="send_question()">Send</button>
             </center>
         </div>
     </body>

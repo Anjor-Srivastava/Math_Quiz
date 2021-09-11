@@ -14,16 +14,32 @@ h3, label {
 
 #login_button {
     background-color: blueviolet;
-    border-radius: 50px;
-    color: white;
     border: 5px solid blueviolet;
-    cursor: pointer;
-    padding: 10px;
 }
 
 #login_button:hover {
     background-color: white;
-    color: blueviolet;
+    color: blueviolet !important;
+}
+
+#send_button {
+    background-color: greenyellow;
+    border: 5px solid greenyellow;
+}
+
+#send_button:hover {
+    background-color: white; 
+    color: greenyellow !important;
+}
+
+#check_button {
+    background-color: gold;
+    border: 5px solid gold;
+}
+
+#check_button:hover {
+    background-color: white;
+    color: gold !important;
 }
 
 #output {
@@ -37,4 +53,8 @@ h3, label {
 
 button {
     width: 200px;
+    color: white !important;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 10px;
 }
