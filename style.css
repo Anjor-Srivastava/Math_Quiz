@@ -42,6 +42,16 @@ h3, label {
     color: gold !important;
 }
 
+#end {
+    background-color: dimgrey;
+    border: 5px solid dimgrey;
+}
+
+#end:hover {
+    background-color: white;
+    color: dimgrey !important;
+}
+
 #output {
     background-color: white;
     border-radius: 10px;

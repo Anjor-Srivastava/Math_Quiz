@@ -61,3 +61,7 @@ function check() {
     document.getElementById("output").innerHTML = "";
     document.getElementById("send_button").style.display = "block";
 }
+
+function end_game() {
+    window.location.replace("index.html");
+}
